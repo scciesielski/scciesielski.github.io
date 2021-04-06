@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Bootstrap Portfolio</title>
+    
+    <!--CSS File-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+      <div class="container">
+        <div class="row background">
+            <div class="col-xs-12">
+                
+                <!-- Nav Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4d5d53">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item font">
+                          <a class="nav-link active fs-4" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fs-4 font" href="interests.html">Interests</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle fs-4 font" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Career
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item font" href="programmer.html">Programmer</a></li>
+                            <li><a class="dropdown-item font" href="software.html">Software engineer</a></li>
+                            <li><a class="dropdown-item font" href="Colleges.html">Colleges</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>       
+                
+                <!-- content -->
+                <div class="col-xs-12 content">
+                    <h1>Welcome to Sophie's Homepage!</h1>   
+                    <img src="https://i.pinimg.com/originals/78/89/8e/78898e5255c9e146b05777746a155acd.gif" width="20%">    
+                    <hr>    
+                    <div class="row">
+                        <div class="col-md-6 my-3">
+                            <h2 class="my-1">About Me</h2>
+                            <p>Hello! My name is Sophie Ciesielski. I am 14 years old and I have taken an interest in programming, engineering, and graphic design. I am a freshman attending <a href="https://lanetech.org/academics/curriculum/" target="_blank">Lane Tech College prep</a> who is currently taking the Web Development course.</p>
+                        </div>
+                            
+                        <div class="col-md-6 my-3">
+                            <h2 class="my-1">What is Web Development?</h2>
+                            <p>Web Development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience</p>
+                        </div>
+                    </div>
+                    
+                    <h2 class="my-3">Web Development Resources</h2>
+                    
+                    <!-- carousel -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="width:50%; height:100%; margin-left:auto; margin-right:auto;">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <a href="https://codehs.com/student/2134980?redirect" target="_blank"><img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2017/07/26/CodeHS-logo-300x300.png" class="rounded mx-auto d-block khan" alt="CodeHS"></a>
+                                <p class="text-center my-1 fs-6">CodeHS</p>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <a href="https://www.khanacademy.org/" target="_blank"><img src="https://www.richlandlibrary.org/site-assets/images/copy_of_khan.png/@@images/image.png" class="rounded mx-auto d-block khan" alt="Khan"></a>
+                                <p class="text-center my-1 fs-6">Khan Academy</p>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.codecademy.com/" target="_blank"><img src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/159/original/10540415-905110306169009-6386804842604452646-n.png" class="rounded mx-auto d-block khan" alt="Code academy"></a>
+                                <p class="text-center my-1 fs-6">Code Academy</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden" style="padding-left:30px">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>        
+
+                </div>
+            </div>
+        </div>
+    </div>
+      
+ 
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
